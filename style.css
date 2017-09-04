@@ -17,7 +17,7 @@ body{
 	height: 100px;
 	width: 100%;
 	margin: 0 0 10px 0;
-	background-color: #cacaca;
+	background-color: #5280a7;
 }
 #todoContainer{
 	display: flex;
@@ -45,7 +45,7 @@ body{
 	background-color: #ddd;
 }
 #headerTitle{
-	color: #fff;
+	color: #5c5c5c;
 	font-size: 25px;
 	margin: 0 0 0 25px;
 }
