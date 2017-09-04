@@ -1,15 +1,46 @@
 @font-face{
 	font-family: roboto;
-	src: url(/roboto/Roboto-Light.ttf);
+	src: url(roboto/Roboto-Light.ttf);
 }
 
-body
-{
+body{
 	margin: 0;
 	padding: 0;
 	font-family: roboto !important;
 }
 .todoHeader{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 20px;
-	color: #cacaca;
+	color: #fff;
+	height: 100px;
+	width: 100%;
+	margin: 0 0 10px 0;
+	background-color: #cacaca;
+}
+#todoContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.todoList{
+	display: flex;
+	border: 1px solid #ddd;
+	padding: 15px;
+	border-radius: 6px;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media (max-width: 540px)
+{
+	.todoList
+	{
+		width: 80% !important;
+	}
 }
